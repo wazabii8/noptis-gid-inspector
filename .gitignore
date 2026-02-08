@@ -19,8 +19,6 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
-composer.lock
-package-lock.json
 vendor/
 node_modules
 dist
