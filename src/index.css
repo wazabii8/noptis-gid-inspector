@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@layer base {
+    table {
+        width: 100%;
+    }
+
+    table td, table th {
+        border: 1px solid #FFF;
+        @apply px-3 py-2 text-left;
+    }
+
+    label {
+        @apply mb-1 block text-base font-semibold;
+    }
+
+    input, button {
+        @apply px-3 py-2 text-base rounded-lg;
+        border: 1px solid #FFF;
+    }
+
+    input:focus, button:focus {
+        outline: none;
+        background-color: rgba(134, 134, 134, 0.1);
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    input {
+        width: 100%;
+    }
+
+}
+
+@layer components {
+    .headline-1 {
+        @apply text-4xl md:text-5xl font-bold tracking-tight;
+    }
+
+    .headline-2 {
+        @apply text-3xl md:text-4xl font-bold tracking-tight;
+    }
+
+    .headline-3 {
+        @apply text-2xl font-bold;
+    }
+
+    .headline-4 {
+        @apply text-xl font-semibold;
+    }
+
+    .headline-5 {
+        @apply text-lg font-medium;
+    }
+
+    .headline-6 {
+        @apply text-sm font-medium uppercase;
+    }
+
+    .card {
+        @apply px-5 py-12;
+    }
+
+    #header {
+        @apply px-5 py-5;
+    }
+}
+
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #FFF;
+}
+
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #111;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+        border: 1px solid #111;
+    }
+
+    input, button, table td, table th{
+        border-color: #111;
+    }
+}
