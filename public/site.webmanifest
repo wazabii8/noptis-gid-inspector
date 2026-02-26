@@ -1,6 +1,6 @@
 {
-  "name": "NOPTIS GID Inspector",
-  "short_name": "GID",
+  "name": "NOPTIS Studio",
+  "short_name": "NOPTIS",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

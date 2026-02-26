@@ -1,5 +1,5 @@
 
-# NOPTIS GID Inspector
+# NOPTIS Studio
 
 The application detects a GID type from an input prefix, splits the value into segments based on layout rules, and validates each segment.
 

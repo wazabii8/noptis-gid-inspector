@@ -1,5 +1,7 @@
 {
-  "title": "NOPTIS GID-granskare",
+  "title": "NOPTIS Studio",
+  "titleGiDInspector": "NOPTIS GID-granskare",
+  "descGiDInspector": "NOPTIS Studio är en liten applikation som omedelbart delar upp ett NOPTIS GID och presenterar all information som finns i identifieraren.",
   "transportAuthority": "Trafikhuvudman",
   "contractor": "Entreprenör",
   "line": "Linje",

@@ -1,5 +1,7 @@
 {
-  "title": "NOPTIS GID Inspector",
+  "title": "NOPTIS Studio",
+  "titleGiDInspector": "NOPTIS GID Inspector",
+  "descGiDInspector": "NOPTIS Studio is a small application that instantly breaks a NOPTIS GID apart and presents all information contained in the identifier.",
   "transportAuthority": "Transport Authority",
   "contractor": "Contractor",
   "line": "Line",

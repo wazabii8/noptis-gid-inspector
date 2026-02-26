@@ -5,7 +5,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  base: "/noptis-gid-inspector/",
+  base: "/noptis-studio/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),

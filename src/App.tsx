@@ -51,7 +51,11 @@ function App() {
         <div className="wrapper max-w-lg">
           <div className="card">
 
-            <h1 className={"headline-2 mb-6"}>{t(lang, 'title', 'GID Inspector')}</h1>
+            <header className={"mb-8"}>
+              <h1 className={"headline-2 mb-3"}>{t(lang, 'titleGiDInspector', 'GID Inspector')}</h1>
+              <p>{t(lang, 'descGiDInspector', 'GID Inspector')}</p>
+            </header>
+
             <div className="mb-6">
               <label htmlFor="inp-gid">GID</label>
               <input
